@@ -1,0 +1,13 @@
+:root {
+  --background-page-color: #e5e5e5;
+  --brand-color-blue: #2196f3;
+  --brand-color-background: #2f303a;
+  --brand-color-black: #212121;
+  --brand-color-grey: #f5f4fa;
+  --brand-color-white: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-black);
+  background-color: var(--background-page-color);
+}
