@@ -1,3 +1,5 @@
+
+
 :root {
   --background-page-color: #e5e5e5;
   --brand-color-blue: #2196f3;
@@ -5,9 +7,225 @@
   --brand-color-black: #212121;
   --brand-color-grey: #f5f4fa;
   --brand-color-white: #ffffff;
+  --brand-color-white60: #ffffff60;
+  --brand-color-lightgrey: #757575;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-color-black);
+  font-size: 14px;
+  line-height: 1.46;
+  font-weight: 700;
+}
+
+.header {
+  font-family: Roboto;
+  background-color: var(--brand-color-white);
+  width: 1600px;
+  height: 80px;
+}
+
+.WebStudio {
+  color: var(--brand-color-blue);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--brand-color-black)
+}
+
+.btn {
+  background-color: var(--brand-color-blue);
+  border: none;
+  color: var(--background-page-color);
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 117px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--brand-color-blue);
   background-color: var(--background-page-color);
+}
+
+.btn2 {
+  background-color: var(--background-page-color);
+  border: none;
+  color: var(--background-page-blue);
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 117px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+} 
+
+.btn2:hover,
+.btn2:focus {
+  color: var(--background-page-blue);
+  background-color: var(--brand-color-blue);
+}
+
+
+
+
+.WebStudio-footer{
+    color: var(--brand-color-blue);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+.studio-footer{
+  color: var(--brand-color-black)
+}
+
+.link {
+  color: var(--brand-color-black);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mail {
+  color: var(--brand-color-lightgrey);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.tel {
+  color: var(--brand-color-lightgrey);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer {
+  background-color: var(--brand-color-background);
+}
+
+.mail-footer {
+  color: var(--brand-color-white);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  vertical-align: Top;
+  text-decoration: none;
+}
+.mail-footer:hover,
+.mail-footer:focus {
+  color: var(--brand-color-blue);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--brand-color-blue);
+}
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--brand-color-blue);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--brand-color-blue);
+}
+
+.tel-footer {
+  color: var(--brand-color-white);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.address-footer {
+    color: var(--brand-color-white);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+
+.section1 {
+  background: var(--brand-color-background);
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  color: var(--brand-color-white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-align: center;
+}
+.section > h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+.title-section2 {
+  color: var(--brand-color-black);
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 700;
+}
+.text{
+  color: var(--brand-color-lightgrey);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.headline-section2{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.2;
+}
+ .headline-section3 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.2;
+ }
+
+.section3 {
+    background-color: var(--brand-color-grey);
+}
+.people-pictures{
+    background-color: var(--brand-color-white);
+    width: 270px;
+    height: 368px;
+    top: 1635px;
+    left: 215px;
+}
+
+.people-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.people-jobs{
+    color: var(--brand-color-lightgrey);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
 }
