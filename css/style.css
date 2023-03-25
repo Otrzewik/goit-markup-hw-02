@@ -1,5 +1,3 @@
-
-
 :root {
   --background-page-color: #e5e5e5;
   --brand-color-blue: #2196f3;
@@ -34,7 +32,7 @@ body {
 }
 
 .studio {
-  color: var(--brand-color-black)
+  color: var(--brand-color-black);
 }
 
 .btn {
@@ -67,7 +65,7 @@ body {
   height: 30px;
   cursor: pointer;
   display: inline-block;
-} 
+}
 
 .btn2:hover,
 .btn2:focus {
@@ -75,19 +73,16 @@ body {
   background-color: var(--brand-color-blue);
 }
 
+.WebStudio-footer {
+  color: var(--brand-color-blue);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
 
-
-
-.WebStudio-footer{
-    color: var(--brand-color-blue);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    text-decoration: none;
-  }
-  
-.studio-footer{
-  color: var(--brand-color-black)
+.studio-footer {
+  color: var(--brand-color-black);
 }
 
 .link {
@@ -96,6 +91,11 @@ body {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--brand-color-blue);
 }
 
 .mail {
@@ -152,13 +152,12 @@ footer {
 }
 
 .address-footer {
-    color: var(--brand-color-white);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
+  color: var(--brand-color-white);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
 
 .section1 {
   background: var(--brand-color-background);
@@ -184,48 +183,70 @@ footer {
   font-size: 14px;
   font-weight: 700;
 }
-.text{
+.text {
   color: var(--brand-color-lightgrey);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 
-.headline-section2{
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    line-height: 1.2;
+.headline-section2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.2;
 }
- .headline-section3 {
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    line-height: 1.2;
- }
+.headline-section3 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.2;
+}
 
 .section3 {
-    background-color: var(--brand-color-grey);
+  background-color: var(--brand-color-grey);
 }
-.people-pictures{
-    background-color: var(--brand-color-white);
-    width: 270px;
-    height: 368px;
-    top: 1635px;
-    left: 215px;
-}
-
-.people-names{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
+.people-pictures {
+  background-color: var(--brand-color-white);
+  width: 270px;
+  height: 368px;
+  top: 1635px;
+  left: 215px;
 }
 
-.people-jobs{
-    color: var(--brand-color-lightgrey);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
+.people-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.people-jobs {
+  color: var(--brand-color-lightgrey);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.title-img {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--brand-color-black);
+  width: 322px;
+  height: 36px;
+  top: 576px;
+  left: 239px;
+}
+
+.desctiption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  width: 322px;
+  height: 30px;
+  top: 616px;
+  left: 239px;
+  color: var(--brand-color-lightgrey);
 }
