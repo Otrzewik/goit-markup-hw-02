@@ -131,7 +131,7 @@ body {
 }
 
 .btn2:focus {
-  color: var(--background-page-blue);
+  color: var(--brand-color-white);
   background-color: var(--brand-color-blue);
 }
 
