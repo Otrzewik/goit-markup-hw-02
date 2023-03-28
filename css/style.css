@@ -149,14 +149,13 @@ body {
   letter-spacing: 0.06em;
 }
 
-
 .title-section1 {
-    font-size: 44px;
-    line-height: 1.16;
-    text-align: center;
-    vertical-align: top;
-    letter-spacing: 0.06em;
-    color: var(--brand-color-white);
+  font-size: 44px;
+  line-height: 1.16;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.06em;
+  color: var(--brand-color-white);
 }
 
 .title-section2-0 {
@@ -220,7 +219,7 @@ body {
 .title-img {
   font-size: 18px;
   font-weight: 700;
-  line-height: 2.0;
+  line-height: 2;
   color: var(--brand-color-black);
   letter-spacing: 0.06em;
   width: 322px;
