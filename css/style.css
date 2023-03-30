@@ -8,6 +8,7 @@
   --brand-color-white: #ffffff;
   --brand-color-white60: #ffffff60;
   --brand-color-lightgrey: #757575;
+  --footer-mail-tel: #ffffff99;
 }
 
 body {
@@ -20,31 +21,24 @@ body {
 /* -- Heaer -- */
 
 .header {
-  font-family: Roboto;
   background-color: var(--brand-color-white);
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   word-spacing: -4px;
-  margin-right: 76px;
-  text-align: center;
   line-height: 1.38;
 }
 
 .logo-part-blue {
   color: var(--brand-color-blue);
-  font-weight: 700;
 }
 
 .logo-part-black {
   color: var(--brand-color-black2);
-  font-weight: 700;
 }
 
 .mail {
@@ -97,13 +91,10 @@ body {
   background-color: var(--brand-color-blue);
   border: none;
   color: var(--background-page-color);
-  text-align: center;
-  vertical-align: center;
   border-radius: 4px;
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
-  display: inline-block;
   letter-spacing: 0.06em;
 }
 
@@ -116,21 +107,15 @@ body {
   background-color: var(--brand-color-grey);
   border: none;
   color: var(--brand-color-black);
-  text-align: center;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  width: 114px;
-  height: 38px;
-  top: 174px;
-  left: 740px;
   cursor: pointer;
-  display: inline-block;
 }
 
-.btn2:focus {
+.btn2:hover {
   color: var(--brand-color-white);
   background-color: var(--brand-color-blue);
 }
@@ -151,10 +136,11 @@ body {
 
 .title-section1 {
   font-size: 44px;
-  line-height: 1.16;
+  line-height: 1.36;
   text-align: center;
   vertical-align: top;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--brand-color-white);
 }
 
@@ -164,6 +150,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .text {
   color: var(--brand-color-lightgrey);
@@ -248,11 +235,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   word-spacing: -4px;
-  margin-right: 76px;
-  vertical-align: top;
-  text-align: left;
   line-height: 1.19;
   list-style-type: none;
 }
@@ -273,16 +256,16 @@ body {
   color: var(--brand-color-white);
   font-style: normal;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   letter-spacing: 0.03em;
 }
 
 .mail-footer {
-  color: var(--brand-color-white);
+  color: var(--footer-mail-tel);
   font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 1.71;
   vertical-align: Top;
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -293,9 +276,9 @@ body {
 }
 
 .tel-footer {
-  color: var(--brand-color-white);
+  color: var(--footer-mail-tel);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   letter-spacing: 0.03em;
 }
